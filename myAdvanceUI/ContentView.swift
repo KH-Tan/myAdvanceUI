@@ -14,6 +14,9 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            
+            Divider()
+            Text("This is a/an Advanced Project")
         }
         .padding()
     }
