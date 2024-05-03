@@ -12,6 +12,15 @@
 		769A56D42BE2223500513E8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769A56D32BE2223500513E8E /* Assets.xcassets */; };
 		769A56D72BE2223500513E8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769A56D62BE2223500513E8E /* Preview Assets.xcassets */; };
 		769A56DF2BE229D600513E8E /* usingGroupBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769A56DE2BE229D600513E8E /* usingGroupBox.swift */; };
+		9B049F852BE4AD2000C64A43 /* usingProgressView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B049F842BE4AD2000C64A43 /* usingProgressView3.swift */; };
+		9B049F882BE4B26600C64A43 /* usingViewBuilder1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B049F872BE4B26600C64A43 /* usingViewBuilder1.swift */; };
+		9B049F8B2BE4C6A400C64A43 /* ViewBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B049F8A2BE4C6A400C64A43 /* ViewBuilders.swift */; };
+		9B049F8E2BE4CA7400C64A43 /* usingComposableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B049F8D2BE4CA7400C64A43 /* usingComposableViews.swift */; };
+		9B049F912BE50FED00C64A43 /* VBBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B049F902BE50FED00C64A43 /* VBBasics.swift */; };
+		9B049F932BE5180300C64A43 /* VBContainerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B049F922BE5180300C64A43 /* VBContainerViews.swift */; };
+		9B049F952BE51F2F00C64A43 /* VBHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B049F942BE51F2F00C64A43 /* VBHUD.swift */; };
+		9BE3E8BE2BE3717200E68B64 /* usingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3E8BD2BE3717200E68B64 /* usingProgressView.swift */; };
+		9BE3E8C02BE3C1B100E68B64 /* usingProgressView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3E8BF2BE3C1B100E68B64 /* usingProgressView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +30,15 @@
 		769A56D32BE2223500513E8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		769A56D62BE2223500513E8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		769A56DE2BE229D600513E8E /* usingGroupBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usingGroupBox.swift; sourceTree = "<group>"; };
+		9B049F842BE4AD2000C64A43 /* usingProgressView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usingProgressView3.swift; sourceTree = "<group>"; };
+		9B049F872BE4B26600C64A43 /* usingViewBuilder1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usingViewBuilder1.swift; sourceTree = "<group>"; };
+		9B049F8A2BE4C6A400C64A43 /* ViewBuilders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilders.swift; sourceTree = "<group>"; };
+		9B049F8D2BE4CA7400C64A43 /* usingComposableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usingComposableViews.swift; sourceTree = "<group>"; };
+		9B049F902BE50FED00C64A43 /* VBBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBBasics.swift; sourceTree = "<group>"; };
+		9B049F922BE5180300C64A43 /* VBContainerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBContainerViews.swift; sourceTree = "<group>"; };
+		9B049F942BE51F2F00C64A43 /* VBHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBHUD.swift; sourceTree = "<group>"; };
+		9BE3E8BD2BE3717200E68B64 /* usingProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usingProgressView.swift; sourceTree = "<group>"; };
+		9BE3E8BF2BE3C1B100E68B64 /* usingProgressView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usingProgressView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +73,9 @@
 			children = (
 				769A56CF2BE2223300513E8E /* myAdvanceUIApp.swift */,
 				769A56D12BE2223300513E8E /* ContentView.swift */,
+				9B049F8F2BE50F9600C64A43 /* StewardLynch */,
+				9B049F8C2BE4CA2E00C64A43 /* azamsharp */,
+				9B049F862BE4B22C00C64A43 /* SwiftfulThinking */,
 				769A56DD2BE229AE00513E8E /* UI */,
 				769A56D32BE2223500513E8E /* Assets.xcassets */,
 				769A56D52BE2223500513E8E /* Preview Content */,
@@ -74,8 +95,46 @@
 			isa = PBXGroup;
 			children = (
 				769A56DE2BE229D600513E8E /* usingGroupBox.swift */,
+				9BE3E8BD2BE3717200E68B64 /* usingProgressView.swift */,
+				9BE3E8BF2BE3C1B100E68B64 /* usingProgressView2.swift */,
+				9B049F842BE4AD2000C64A43 /* usingProgressView3.swift */,
+				9B049F892BE4C65000C64A43 /* Library */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		9B049F862BE4B22C00C64A43 /* SwiftfulThinking */ = {
+			isa = PBXGroup;
+			children = (
+				9B049F872BE4B26600C64A43 /* usingViewBuilder1.swift */,
+			);
+			path = SwiftfulThinking;
+			sourceTree = "<group>";
+		};
+		9B049F892BE4C65000C64A43 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				9B049F8A2BE4C6A400C64A43 /* ViewBuilders.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		9B049F8C2BE4CA2E00C64A43 /* azamsharp */ = {
+			isa = PBXGroup;
+			children = (
+				9B049F8D2BE4CA7400C64A43 /* usingComposableViews.swift */,
+			);
+			path = azamsharp;
+			sourceTree = "<group>";
+		};
+		9B049F8F2BE50F9600C64A43 /* StewardLynch */ = {
+			isa = PBXGroup;
+			children = (
+				9B049F902BE50FED00C64A43 /* VBBasics.swift */,
+				9B049F922BE5180300C64A43 /* VBContainerViews.swift */,
+				9B049F942BE51F2F00C64A43 /* VBHUD.swift */,
+			);
+			path = StewardLynch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +207,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B049F8E2BE4CA7400C64A43 /* usingComposableViews.swift in Sources */,
+				9BE3E8BE2BE3717200E68B64 /* usingProgressView.swift in Sources */,
 				769A56D22BE2223300513E8E /* ContentView.swift in Sources */,
+				9B049F932BE5180300C64A43 /* VBContainerViews.swift in Sources */,
+				9B049F8B2BE4C6A400C64A43 /* ViewBuilders.swift in Sources */,
+				9BE3E8C02BE3C1B100E68B64 /* usingProgressView2.swift in Sources */,
 				769A56D02BE2223300513E8E /* myAdvanceUIApp.swift in Sources */,
+				9B049F952BE51F2F00C64A43 /* VBHUD.swift in Sources */,
+				9B049F912BE50FED00C64A43 /* VBBasics.swift in Sources */,
+				9B049F852BE4AD2000C64A43 /* usingProgressView3.swift in Sources */,
+				9B049F882BE4B26600C64A43 /* usingViewBuilder1.swift in Sources */,
 				769A56DF2BE229D600513E8E /* usingGroupBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
