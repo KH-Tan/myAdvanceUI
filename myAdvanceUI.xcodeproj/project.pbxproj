@@ -19,6 +19,11 @@
 		9B049F912BE50FED00C64A43 /* VBBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B049F902BE50FED00C64A43 /* VBBasics.swift */; };
 		9B049F932BE5180300C64A43 /* VBContainerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B049F922BE5180300C64A43 /* VBContainerViews.swift */; };
 		9B049F952BE51F2F00C64A43 /* VBHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B049F942BE51F2F00C64A43 /* VBHUD.swift */; };
+		9B91FF4B2BE5C481005ABBDD /* LayOut1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B91FF4A2BE5C481005ABBDD /* LayOut1.swift */; };
+		9B91FF4D2BE5CEC2005ABBDD /* LayOut2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B91FF4C2BE5CEC2005ABBDD /* LayOut2.swift */; };
+		9B91FF4F2BE60F93005ABBDD /* LayOut4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B91FF4E2BE60F93005ABBDD /* LayOut4.swift */; };
+		9B91FF512BE612CD005ABBDD /* LayOut5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B91FF502BE612CD005ABBDD /* LayOut5.swift */; };
+		9BB024E72BE90F4700DAFA07 /* Animate1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB024E62BE90F4700DAFA07 /* Animate1.swift */; };
 		9BE3E8BE2BE3717200E68B64 /* usingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3E8BD2BE3717200E68B64 /* usingProgressView.swift */; };
 		9BE3E8C02BE3C1B100E68B64 /* usingProgressView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3E8BF2BE3C1B100E68B64 /* usingProgressView2.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +42,11 @@
 		9B049F902BE50FED00C64A43 /* VBBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBBasics.swift; sourceTree = "<group>"; };
 		9B049F922BE5180300C64A43 /* VBContainerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBContainerViews.swift; sourceTree = "<group>"; };
 		9B049F942BE51F2F00C64A43 /* VBHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBHUD.swift; sourceTree = "<group>"; };
+		9B91FF4A2BE5C481005ABBDD /* LayOut1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayOut1.swift; sourceTree = "<group>"; };
+		9B91FF4C2BE5CEC2005ABBDD /* LayOut2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayOut2.swift; sourceTree = "<group>"; };
+		9B91FF4E2BE60F93005ABBDD /* LayOut4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayOut4.swift; sourceTree = "<group>"; };
+		9B91FF502BE612CD005ABBDD /* LayOut5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayOut5.swift; sourceTree = "<group>"; };
+		9BB024E62BE90F4700DAFA07 /* Animate1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate1.swift; sourceTree = "<group>"; };
 		9BE3E8BD2BE3717200E68B64 /* usingProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usingProgressView.swift; sourceTree = "<group>"; };
 		9BE3E8BF2BE3C1B100E68B64 /* usingProgressView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usingProgressView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +83,7 @@
 			children = (
 				769A56CF2BE2223300513E8E /* myAdvanceUIApp.swift */,
 				769A56D12BE2223300513E8E /* ContentView.swift */,
+				9B91FF492BE5C449005ABBDD /* PaulHudson */,
 				9B049F8F2BE50F9600C64A43 /* StewardLynch */,
 				9B049F8C2BE4CA2E00C64A43 /* azamsharp */,
 				9B049F862BE4B22C00C64A43 /* SwiftfulThinking */,
@@ -135,6 +146,34 @@
 				9B049F942BE51F2F00C64A43 /* VBHUD.swift */,
 			);
 			path = StewardLynch;
+			sourceTree = "<group>";
+		};
+		9B91FF492BE5C449005ABBDD /* PaulHudson */ = {
+			isa = PBXGroup;
+			children = (
+				9BB024E52BE90F2100DAFA07 /* Animation */,
+				9BB024E42BE90EF500DAFA07 /* LayOut */,
+			);
+			path = PaulHudson;
+			sourceTree = "<group>";
+		};
+		9BB024E42BE90EF500DAFA07 /* LayOut */ = {
+			isa = PBXGroup;
+			children = (
+				9B91FF4A2BE5C481005ABBDD /* LayOut1.swift */,
+				9B91FF4C2BE5CEC2005ABBDD /* LayOut2.swift */,
+				9B91FF4E2BE60F93005ABBDD /* LayOut4.swift */,
+				9B91FF502BE612CD005ABBDD /* LayOut5.swift */,
+			);
+			path = LayOut;
+			sourceTree = "<group>";
+		};
+		9BB024E52BE90F2100DAFA07 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				9BB024E62BE90F4700DAFA07 /* Animate1.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,11 +252,16 @@
 				9B049F932BE5180300C64A43 /* VBContainerViews.swift in Sources */,
 				9B049F8B2BE4C6A400C64A43 /* ViewBuilders.swift in Sources */,
 				9BE3E8C02BE3C1B100E68B64 /* usingProgressView2.swift in Sources */,
+				9BB024E72BE90F4700DAFA07 /* Animate1.swift in Sources */,
+				9B91FF4F2BE60F93005ABBDD /* LayOut4.swift in Sources */,
 				769A56D02BE2223300513E8E /* myAdvanceUIApp.swift in Sources */,
 				9B049F952BE51F2F00C64A43 /* VBHUD.swift in Sources */,
+				9B91FF4D2BE5CEC2005ABBDD /* LayOut2.swift in Sources */,
 				9B049F912BE50FED00C64A43 /* VBBasics.swift in Sources */,
+				9B91FF512BE612CD005ABBDD /* LayOut5.swift in Sources */,
 				9B049F852BE4AD2000C64A43 /* usingProgressView3.swift in Sources */,
 				9B049F882BE4B26600C64A43 /* usingViewBuilder1.swift in Sources */,
+				9B91FF4B2BE5C481005ABBDD /* LayOut1.swift in Sources */,
 				769A56DF2BE229D600513E8E /* usingGroupBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
